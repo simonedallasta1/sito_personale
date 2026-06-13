@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simone Dall'Asta — Software Developer</title>
+  <meta name="description" content="Portfolio di Simone Dall'Asta, Software Developer a Cremona. Progetti, competenze ed esperienze tra software development, IoT e computer vision.">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Simone Dall'Asta — Software Developer">
+  <meta property="og:description" content="Portfolio personale: progetti, competenze ed esperienze.">
+  <meta property="og:image" content="assets/img/profilo-288.jpg">
+  <meta name="theme-color" content="#0b0f1a">
+
+  <!-- Favicon inline (nessuna richiesta extra) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='54' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>S</text></svg>">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Dati strutturati per la SEO (JSON-LD, nessun cookie) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Simone Dall'Asta",
+    "jobTitle": "Software Developer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Cremona", "addressRegion": "Lombardia", "addressCountry": "IT" },
+    "knowsLanguage": ["Italiano", "Inglese"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand"><span class="dot"></span> Simone Dall'Asta</a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#chi-sono">Chi sono</a></li>
+          <li><a href="#esperienze">Esperienze</a></li>
+          <li><a href="#skill">Competenze</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="hero-role"><span class="pulse"></span> Software Development Supervisor</span>
+          <h1>Costruisco <span class="gradient-text">software</span> che funziona e dura nel tempo.</h1>
+          <p class="lead">
+            Sono Simone Dall'Asta, software developer da Cremona. Da oltre sette anni
+            progetto e guido lo sviluppo di soluzioni software, con una passione che va
+            dall'IoT alla computer vision.
+          </p>
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn btn-primary">Guarda i progetti →</a>
+            <a href="#contatti" class="btn btn-ghost">Contattami</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><strong>7+</strong><span>Anni di esperienza</span></div>
+            <div class="stat"><strong>6</strong><span>Progetti in evidenza</span></div>
+            <div class="stat"><strong>1</strong><span>Pubblicazione IEEE</span></div>
+          </div>
+
+          <!-- TODO: sostituisci gli href="#" con gli URL reali dei tuoi profili -->
+          <div class="socials hero-socials">
+            <a class="social" href="https://github.com/simonedallasta1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.42.36.79 1.07.79 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+            <a class="social" href="https://www.linkedin.com/in/simone-dall-asta-30008297" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+            </a>
+            <a class="social" href="https://www.instagram.com/Smnd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07c-1.28.06-2.15.26-2.91.56-.79.3-1.46.72-2.13 1.38A5.86 5.86 0 0 0 .63 4.14c-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.63.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.13-1.38 5.86 5.86 0 0 0 1.38-2.13c.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.13A5.86 5.86 0 0 0 19.86.63c-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0Zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84Zm0 10.16A4 4 0 1 1 16 12a4 4 0 0 1-4 4Zm6.41-10.4a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+            </a>
+            <a class="social" href="https://www.facebook.com/simone.dallasta1990" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07c0 6.02 4.39 11.01 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.08 24 18.1 24 12.07Z"/></svg>
+            </a>
+            <a class="social" href="https://www.youtube.com/@SimoneDallAsta" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2C0 8.07 0 12 0 12s0 3.93.5 5.8a3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="ring">
+            <picture>
+              <source type="image/webp"
+                srcset="assets/img/profilo-96.webp 96w, assets/img/profilo-192.webp 192w, assets/img/profilo-288.webp 288w"
+                sizes="(max-width: 600px) 220px, 300px">
+              <img src="assets/img/profilo-288.jpg" alt="Ritratto di Simone Dall'Asta" width="288" height="288">
+            </picture>
+          </div>
+          <span class="badge">💻 Software Developer</span>
+          <span class="badge tr">📍 Cremona, IT</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CHI SONO ===================== -->
+    <section class="section" id="chi-sono">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Chi sono</span>
+          <h2>Curiosità per la tecnologia, attenzione ai dettagli.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Nato a Parma, ho vissuto a lungo a Casaltone (frazione di Sorbolo) e oggi vivo a
+              Cremona. Sono appassionato di tecnologie, web e software development, sempre
+              incuriosito dalle novità.
+            </p>
+            <p>
+              Mi sono laureato in Ingegneria Informatica all'Università di Parma e in questi anni
+              ho lavorato su progetti che spaziano dalla computer vision alla robotica, dall'IoT
+              alla sicurezza orientata al cloud — fino a coordinare team di sviluppo software.
+            </p>
+            <p>
+              Ho anche collaborato come autore con la rivista <strong>Elettronica In</strong>,
+              pubblicando progetti come "L'acquario connesso" e il "Riconoscitore di targhe per
+              cancelli automatici".
+            </p>
+          </div>
+          <div class="facts reveal">
+            <div class="fact">
+              <div class="ic">🎓</div>
+              <div><strong>Laurea Magistrale in Ing. Informatica</strong><span>Università di Parma — voto 107</span></div>
+            </div>
+            <div class="fact">
+              <div class="ic">💼</div>
+              <div><strong>Software Dev. Supervisor</strong><span>Custom S.p.A. — dal 2024</span></div>
+            </div>
+            <div class="fact">
+              <div class="ic">🌍</div>
+              <div><strong>Lingue</strong><span>Italiano (madrelingua), Inglese</span></div>
+            </div>
+            <div class="fact">
+              <div class="ic">📍</div>
+              <div><strong>Cremona, Lombardia</strong><span>Disponibile a nuove sfide</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ESPERIENZE ===================== -->
+    <section class="section" id="esperienze" style="background: var(--bg-soft);">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Percorso</span>
+          <h2>Esperienze e formazione</h2>
+          <p>Un percorso che parte dalla ricerca universitaria e arriva alla guida di team di sviluppo.</p>
+        </div>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="when">Lug 2024 → oggi</div>
+            <h3>Software Development Supervisor</h3>
+            <div class="org">Custom Group / Custom S.p.A.</div>
+            <p>Coordinamento e supervisione dello sviluppo software all'interno del gruppo.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="when">Mag 2019 → Lug 2024</div>
+            <h3>Software Developer</h3>
+            <div class="org">Custom Group / Custom S.p.A.</div>
+            <p>Progettazione e sviluppo di soluzioni software (7 anni complessivi nel gruppo).</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="when">Ott 2017 → Mag 2019</div>
+            <h3>Computer Engineer</h3>
+            <div class="org">Advantage Srl</div>
+            <p>Sviluppo e ingegnerizzazione di sistemi informatici.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="when">Gen 2016 → Mar 2017</div>
+            <h3>Autore collaboratore</h3>
+            <div class="org">Elettronica In (rivista)</div>
+            <p>Realizzazione di progetti e articoli pubblicati: "L'acquario connesso" e il riconoscitore di targhe per cancelli automatici.</p>
+          </div>
+          <div class="tl-item reveal">
+            <div class="when">2009 → 2017</div>
+            <h3>Ingegneria Informatica (Triennale + Magistrale)</h3>
+            <div class="org">Università di Parma</div>
+            <p>Laurea Triennale (91/110) e Laurea Magistrale (107), con tesi su computer vision e robotica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILL ===================== -->
+    <section class="section" id="skill">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Competenze</span>
+          <h2>Strumenti e tecnologie</h2>
+          <p>Dalle basi a basso livello fino al web e al machine learning.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">⌨️</span> Linguaggi</h3>
+            <div class="chips">
+              <span class="chip">C</span><span class="chip">C++</span><span class="chip">Java</span>
+              <span class="chip">Python</span><span class="chip">Go</span><span class="chip">JavaScript</span>
+              <span class="chip">Pascal</span><span class="chip">Assembly</span>
+            </div>
+          </div>
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">🌐</span> Web</h3>
+            <div class="chips">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">jQuery</span>
+              <span class="chip">AJAX</span><span class="chip">XML</span><span class="chip">WordPress</span>
+              <span class="chip">CMS</span>
+            </div>
+          </div>
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">🤖</span> Dati &amp; ML</h3>
+            <div class="chips">
+              <span class="chip">MySQL</span><span class="chip">OpenCV</span><span class="chip">Keras</span>
+            </div>
+          </div>
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">🎨</span> Grafica &amp; Vision</h3>
+            <div class="chips">
+              <span class="chip">OpenGL</span><span class="chip">Processing</span>
+            </div>
+          </div>
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">🔌</span> IoT &amp; Hardware</h3>
+            <div class="chips">
+              <span class="chip">Arduino</span><span class="chip">IoT</span>
+            </div>
+          </div>
+          <div class="card skill-cat reveal">
+            <h3><span class="ic">🛠️</span> Strumenti &amp; SO</h3>
+            <div class="chips">
+              <span class="chip">GitHub</span><span class="chip">Linux</span><span class="chip">Windows</span>
+              <span class="chip">Office</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PORTFOLIO ===================== -->
+    <section class="section" id="portfolio" style="background: var(--bg-soft);">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Progetti selezionati</h2>
+          <p>Una selezione di lavori tra computer vision, robotica e IoT.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="card project reveal">
+            <div class="top"><span class="tag">Computer Vision</span><span class="year">2016</span></div>
+            <h3>Ricerca di UAV in immagini</h3>
+            <p>Sviluppo e valutazione di un algoritmo per individuare droni (UAV) all'interno di immagini.</p>
+          </article>
+          <article class="card project reveal">
+            <div class="top"><span class="tag">Robotica</span><span class="year">2016</span></div>
+            <h3>Robot Pioneer 3DX</h3>
+            <p>Software per il robot Pioneer 3DX equipaggiato con laser scanner Sick LMS100.</p>
+          </article>
+          <article class="card project reveal">
+            <div class="top"><span class="tag">IoT</span><span class="year">2015–2016</span></div>
+            <h3>L'acquario connesso</h3>
+            <p>Sistema IoT per il monitoraggio e la gestione di un acquario, con articolo pubblicato.</p>
+          </article>
+          <article class="card project reveal">
+            <div class="top"><span class="tag">Web</span><span class="year">2014–2015</span></div>
+            <h3>Sito aziendale "Metal Valley"</h3>
+            <p>Progettazione e realizzazione del sito web aziendale per Metal Valley.</p>
+          </article>
+          <article class="card project reveal">
+            <div class="top"><span class="tag">Vision / IoT</span><span class="year">2016</span></div>
+            <h3>Riconoscitore di targhe</h3>
+            <p>Riconoscimento targhe per l'apertura automatica di cancelli, con articolo pubblicato.</p>
+          </article>
+          <article class="card project reveal">
+            <div class="top"><span class="tag">IoT / Cloud Security</span><span class="year">2017</span></div>
+            <h3>Sistema IoT sicuro orientato al Cloud</h3>
+            <p>Architettura IoT sicura orientata al cloud, base della pubblicazione IoTChain.</p>
+          </article>
+        </div>
+
+        <div class="publication reveal">
+          <div class="ic">📄</div>
+          <div>
+            <h3>IoTChain: a Blockchain Security Architecture for the Internet of Things</h3>
+            <p>IEEE Wireless Communications and Networking Conference (WCNC), Barcellona — Aprile 2018.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATTI ===================== -->
+    <section class="section" id="contatti">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Contatti</span>
+          <h2>Parliamone</h2>
+          <p>Hai un progetto in mente o vuoi solo fare due chiacchiere? Scrivimi.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="channel">
+              <div class="ic">✉️</div>
+              <div><span>Email</span><strong><a href="mailto:simone.dallasta1@gmail.com">simone.dallasta1@gmail.com</a></strong></div>
+            </div>
+            <div class="channel">
+              <div class="ic">📍</div>
+              <div><span>Dove</span><strong>Cremona, Lombardia — Italia</strong></div>
+            </div>
+            <div class="channel">
+              <div class="ic">💼</div>
+              <div><span>Ruolo</span><strong>Software Development Supervisor</strong></div>
+            </div>
+          </div>
+
+          <!-- NB: action="#" è un placeholder. Va collegato a Web3Forms/Formspree (vedi README §7.5). -->
+          <form class="form reveal" id="contactForm" action="#" method="POST" novalidate>
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tua@email.it" required>
+            </div>
+            <div class="field">
+              <label for="messaggio">Messaggio</label>
+              <textarea id="messaggio" name="messaggio" rows="4" placeholder="Scrivi qui..." required></textarea>
+            </div>
+            <!-- Honeypot anti-spam: i bot lo compilano, gli umani no -->
+            <div class="hp" aria-hidden="true">
+              <label for="website">Lascia vuoto questo campo</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+            <label class="consent">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <span>Ho letto e accetto la <a href="privacy-policy.html">Privacy Policy</a> e acconsento al trattamento dei miei dati per essere ricontattato.</span>
+            </label>
+            <button type="submit" class="btn btn-primary">Invia messaggio →</button>
+            <p class="form-note" id="formNote">I tuoi dati saranno usati solo per ricontattarti.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="copyright">© <span id="year"></span> Simone Dall'Asta — Tutti i diritti riservati.</div>
+      <div class="socials">
+        <a class="social" href="https://github.com/simonedallasta1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.42.36.79 1.07.79 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a>
+        <a class="social" href="https://www.linkedin.com/in/simone-dall-asta-30008297" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <a class="social" href="https://www.instagram.com/Smnd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07c-1.28.06-2.15.26-2.91.56-.79.3-1.46.72-2.13 1.38A5.86 5.86 0 0 0 .63 4.14c-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.63.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.13-1.38 5.86 5.86 0 0 0 1.38-2.13c.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.13A5.86 5.86 0 0 0 19.86.63c-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0Zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84Zm0 10.16A4 4 0 1 1 16 12a4 4 0 0 1-4 4Zm6.41-10.4a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+        </a>
+        <a class="social" href="https://www.facebook.com/simone.dallasta1990" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07c0 6.02 4.39 11.01 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.08 24 18.1 24 12.07Z"/></svg>
+        </a>
+        <a class="social" href="https://www.youtube.com/@SimoneDallAsta" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2C0 8.07 0 12 0 12s0 3.93.5 5.8a3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
+        </a>
+      </div>
+      <nav class="footer-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="cookie-policy.html">Cookie Policy</a>
+        <button type="button" id="manageCookies">Gestisci cookie</button>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ===================== COOKIE BANNER ===================== -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Avviso cookie">
+    <h3>🍪 Privacy &amp; cookie</h3>
+    <p>
+      Questo sito non usa cookie di profilazione né strumenti di tracciamento di terze parti.
+      Vengono impiegati solo cookie/tecnologie strettamente necessari al funzionamento.
+      Maggiori dettagli nella <a href="cookie-policy.html" style="color:var(--accent-2);text-decoration:underline;">Cookie Policy</a>.
+    </p>
+    <div class="cookie-actions">
+      <button class="btn btn-primary" id="cookieOk">Ho capito</button>
+      <a class="btn btn-ghost" href="cookie-policy.html">Dettagli</a>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
