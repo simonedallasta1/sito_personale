@@ -66,10 +66,16 @@
             <a href="#contatti" class="btn btn-ghost">Contattami</a>
           </div>
           <div class="hero-stats">
-            <div class="stat"><strong>7+</strong><span>Anni di esperienza</span></div>
-            <div class="stat"><strong>6</strong><span>Progetti in evidenza</span></div>
-            <div class="stat"><strong>1</strong><span>Pubblicazione IEEE</span></div>
-          </div>
+  <div class="stat"><strong id="anni-esperienza">7+</strong><span>Anni di esperienza</span></div>
+  <div class="stat"><strong>6</strong><span>Progetti in evidenza</span></div>
+  <div class="stat"><strong>1</strong><span>Pubblicazione IEEE</span></div>
+</div>
+
+<script>
+  const anniEl = document.getElementById('anni-esperienza');
+  const anni = new Date().getFullYear() - 2014;
+  anniEl.textContent = anni + '+';
+</script>
 
           <!-- TODO: sostituisci gli href="#" con gli URL reali dei tuoi profili -->
           <div class="socials hero-socials">
